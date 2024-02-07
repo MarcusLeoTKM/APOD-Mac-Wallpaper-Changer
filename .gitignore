@@ -2,5 +2,5 @@ ProgramDevelopmentLog.rtf
 .env
 virtual/
 __pycache__
-
+.DS_Store
 

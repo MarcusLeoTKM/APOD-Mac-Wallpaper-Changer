@@ -10,10 +10,8 @@ def func() :
 
 
     URL = "https://api.nasa.gov/planetary/apod?api_key={}".format(api_key) 
-    page = requests.get(URL) # this returns a Response
+    page = requests.get(URL) # this returns a Response type
     data = json.loads(page.content)
-
-    print(data['hdurl'])
 
     image = requests.get(data['hdurl'])
     file_path = "{}/{}.jpg".format(folder_path, date.today())
