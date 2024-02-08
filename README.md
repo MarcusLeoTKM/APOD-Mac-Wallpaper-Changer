@@ -3,6 +3,7 @@
 * [Requirements](#Requirements)
 * [Introduction](#Introduction)
 * [Setup](#Setup)
+* [Config](#Config)
   
 ## Requirements
 - MacOS
@@ -21,3 +22,13 @@ Do you want your desktop wallpaper to feature the sky and the universe? This sma
 6. Clone this repository: `gh repo clone MarcusLeoTKM/APOD-Mac-Wallpaper-Changer`.
 7. Go to https://api.nasa.gov, and sign up for an API key. This will be your `api_key`.
 8. You should have your `patht` and `api_key`.
+
+## Config 
+1. Go to config.py file.
+2. Find
+```
+api_key : str # = your api_key
+patht : str # = your path
+```
+3. Delete `#` and replace `your api_key` with the `api_key` you received from step 7.
+4. Delete `#` and replace `your path` with the `patht` you got from step 4.
