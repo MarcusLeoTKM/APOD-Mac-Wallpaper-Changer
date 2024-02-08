@@ -10,6 +10,6 @@ Download Astronomy Picture of the Day through NASA using their APIs to an Apple 
 
 
 ## Setup
-1. Clone the repository: 'gh repo clone MarcusLeoTKM/APOD-Mac-Wallpaper-Changer'
+1. Clone the repository: `gh repo clone MarcusLeoTKM/APOD-Mac-Wallpaper-Changer`
 
 2, 
